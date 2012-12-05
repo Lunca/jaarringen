@@ -88,13 +88,17 @@ body {
 }
 
 
-
 /* ===================
     ALL: Orange Theme
    =================== */
 
 .header-container {
     border-bottom: 20px solid #8E837C;
+}
+
+.footer-container {
+    width: 1026px;
+    margin: 0 auto;
 }
 
 .footer-container,
