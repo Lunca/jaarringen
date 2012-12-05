@@ -55,10 +55,28 @@ textarea {
     padding: 0.2em 0;
 }
 
+/* Wrapper for page content to push down footer */
+#wrapcontainer {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -122px;
+}
+
+#push{
+    height: 102px;
+}
 
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
+
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
 
 body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
@@ -68,6 +86,8 @@ body {
     width: 90%;
     margin: 0 5%;
 }
+
+
 
 /* ===================
     ALL: Orange Theme
